@@ -1,6 +1,6 @@
-# Task List Application (MVVM Pattern)
+# The Model-View-ViewModel (MVVM) pattern
 
-Welcome to the **Task List Application**! This project is structured using the **Model-View-ViewModel (MVVM)** design pattern, which separates the application's data management, UI, and business logic into distinct components. This README provides an overview of the MVVM structure, making the code modular, scalable, and maintainable.
+Welcome! This project is structured using the **Model-View-ViewModel (MVVM)** design pattern, which separates the application's data management, UI, and business logic into distinct components. This README provides an overview of the MVVM structure, making the code modular, scalable, and maintainable.
 
 ---
 
@@ -8,9 +8,9 @@ Welcome to the **Task List Application**! This project is structured using the *
 
 The **MVVM** pattern divides the code into three main components:
 
-- **Model**: Manages the application’s data and business logic.
-- **View**: Handles the UI, presenting data and gathering user input.
-- **ViewModel**: Acts as an intermediary between the Model and the View, holding logic to format and present data.
+- **UserModel**: Represents the user’s data, with properties like name.
+- **UserView**: Handles user interaction by showing menus, getting input, and displaying data.
+- **UserViewModel**: Acts as an intermediary. It stores a list of UserModel objects, performs logic like adding users, and provides formatted data for the UserView.
 
 ---
 
