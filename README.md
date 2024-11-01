@@ -6,7 +6,7 @@ Welcome! This project is structured using the **Model-View-Presenter (MVP)** des
 
 ## 📐 Project Structure
 
-The **MVP* pattern divides the code into three main components:
+The **MVP** pattern divides the code into three main components:
 
 - **UserModel**: Represents the user’s data, with properties like name.
 - **UserView**: Handles user interaction by showing menus, getting input, and displaying data.
