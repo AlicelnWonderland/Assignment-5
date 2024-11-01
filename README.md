@@ -1,12 +1,12 @@
-# The Model-View-ViewModel (MVVM) pattern
+# The Model-View-Presenter (MVP) pattern
 
-Welcome! This project is structured using the **Model-View-ViewModel (MVVM)** design pattern, which separates the application's data management, UI, and business logic into distinct components. This README provides an overview of the MVVM structure, making the code modular, scalable, and maintainable.
+Welcome! This project is structured using the **Model-View-Presenter (MVP)** design pattern, which separates the application's data management, UI, and business logic into distinct components. This README provides an overview of the MVP structure, making the code modular, scalable, and maintainable.
 
 ---
 
 ## 📐 Project Structure
 
-The **MVVM** pattern divides the code into three main components:
+The **MVP* pattern divides the code into three main components:
 
 - **UserModel**: Represents the user’s data, with properties like name.
 - **UserView**: Handles user interaction by showing menus, getting input, and displaying data.
