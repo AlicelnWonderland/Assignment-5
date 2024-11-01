@@ -33,5 +33,12 @@ public class Task {
     }
 
     // Getters, Setters, and methods like toggleComplete()...
-}```
+}
+
+### 2. **Model**
+
+The `Model` is responsible for data structure and business logic. It doesn’t interact with the user directly; instead, it only provides data to the `ViewModel`.
+
+#### Example
+```java
 
